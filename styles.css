@@ -1,0 +1,424 @@
+@media only screen and (min-width: 1024px) {
+  /*max-width zz hon 1024 thi thuc thi thuoc tinh css*/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .menu_btn {
+    margin-left: 45%;
+  }
+  .eee {
+    background-color: black;
+  }
+  .active {
+    color: white !important;
+    text-align: center;
+  }
+  .offcanvas-body ul li a:hover {
+    color: gray !important;
+  }
+  .sec {
+    text-align: center !important;
+    padding: 5%;
+    padding-top: 10%;
+    margin-left: 10%;
+    width: 100%;
+  }
+  .section1 {
+    font-size: 3.5em;
+    margin: 0;
+    font-family: Merriweather, serif !important;
+    font-weight: 700;
+    width: 80%;
+  }
+  .section2 {
+    width: 84%;
+  }
+  .anh_banner {
+    padding: 180px 50px;
+    background-size: 100%;
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/cfa0aea133d35d1eaee2fc62/pexels-photo-6171394.jpeg);
+  }
+  .boc_hop {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .card-body {
+    width: 250px;
+    height: 250px;
+  }
+  .icon-bill {
+    font-size: 300%;
+    margin-top: 7%;
+  }
+  .card text-center {
+    width: 20%;
+  }
+  .hop {
+    width: 250px;
+    height: 250px;
+    margin: 0 20px;
+    text-align: center;
+  }
+  .phan2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    align-items: stretch;
+  }
+  .imgbox1 {
+    width: 320px;
+    height: 400px;
+  }
+  .box1p2 {
+    width: 30%;
+    margin-top: -5%;
+  }
+  .box2p2 {
+    width: 40%;
+    justify-content: center;
+  }
+  .theh4p2{
+    font-weight: 100;
+    line-height: 1.2;
+  }
+  .box3p2 {
+    width: 30%;
+    text-align: right;
+  }
+  .imgR {
+    margin: 0px 0px 0px, 4px;
+  }
+  .boxanbox3 {
+    height: 300px;
+  }
+  .bocPhan3 {
+    display: flex;
+    margin-top: 10%;
+  }
+  .phan3 {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .phan3L {
+    margin-right: 30%;
+  }
+  .box1p3R {
+    width: 550px;
+    height: 550px;
+    background-color: #9eafbf;
+    border-radius: 100%;
+    padding: 100px;
+    margin-top: 100px;
+  }
+  .p3h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: Merriweather, serif !important;
+    color: white;
+  }
+  .p3h5 {
+    width: 344px;
+    margin: 30px auto 0;
+    color: white;
+  }
+  .fa-users {
+    margin-top: 20%;
+  }
+  .btn-primary {
+    color: #9eafbf !important;
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px auto 0 94px;
+    border-color: #9eafbf !important;
+    color: #9eafbf !important;
+    background-color: transparent !important;
+    border-width: 2px;
+    border-radius: 25px;
+  }
+  .p3h {
+    color: white;
+  }
+  .card-text {
+    color: gray !important;
+  }
+  .card-body {
+    float: left;
+  }
+  .anhphan4 {
+    padding: 300px 50px;
+    background-size: 100%;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c4c66359aed55ac685514070/pexels-photo-5646794.jpeg?version=);
+    background-position-y: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .menu_btn {
+    margin-left: 18%;
+  }
+  .eee {
+    background-color: black;
+  }
+  .active {
+    color: white !important;
+    text-align: center;
+  }
+  .text-reset {
+    background-color: white !important;
+    color: white !important;
+  }
+  .offcanvas {
+    max-width: 70%;
+  }
+
+  .offcanvas-body ul li a:hover {
+    color: gray !important;
+  }
+  .sec {
+    text-align: center !important;
+    margin-top: 40%;
+    width: 100%;
+  }
+  .section1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 700;
+    font-family: Merriweather, serif !important;
+    line-height: 1.2;
+  }
+  .section2 {
+    margin: 22px 1px 0;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .anh_banner {
+    padding: 50px 50px; /*so dau dai dien cho top bottom so thu 2 dai dien cho trai phai*/
+    background-size: 100%;
+    height: 500px;
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/cfa0aea133d35d1eaee2fc62/pexels-photo-6171394.jpeg);
+  }
+  .boc_hop {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .card-title {
+    font-size: 1rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    text-transform: none;
+    margin: 18px 0 0;
+  }
+  .icon-bill {
+    font-size: 300%;
+    margin-top: 7%;
+  }
+  .card text-center {
+    width: 20%;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .hop {
+    width: 100%;
+  }
+
+  .phan2{
+    width: 100%;
+    margin-top: 30%;
+  }
+  .box1p2 {
+    width: 100%;
+  }
+
+  .imgbox1 {
+    width: 300px;
+    height: 376px;
+    margin-top: -75%;
+  }
+
+  .theh4p2{
+    font-weight: 300;
+    line-height: 1.2;
+    color: black;
+  }
+  .box2p2 {
+    text-align: center;
+    font-size: 2  rem; 
+    margin-top: 0;
+    font-weight: 700;
+    margin: 215px 0 0;
+    margin-top: -52%;
+
+  }
+  .box3p2 {
+   
+    text-align: right;
+  }
+  .imgR {
+    margin: 0px 0px 0px, 4px;
+  }
+  .boxanbox3 {
+    height: 300px;
+  }
+  .bocPhan3 {
+    display: flex;
+    margin-top: 10%;
+  }
+  .phan3 {
+    margin-top: 100px;
+    text-align: center;
+    margin: auto;
+  } 
+  .imgR{
+    margin-top: -300px;
+    width: 330px;
+    height: 390px;
+  }
+  .mb-3{
+    display: flex;
+   
+  }
+  .g-0{
+    float: left;
+  }
+  .fa-users{
+    margin-left:-78%;
+  }
+  .card-title{
+    margin-left: -22%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+  }
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+  .p3h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: Merriweather, serif !important;
+    color: white;
+  }
+  .p3h5 {
+    width: 344px;
+    margin: 30px auto 0;
+    color: white;
+  }
+  .fa-users {
+    margin-top: 20%;
+  }
+  .btn-primary {
+    color: #9eafbf !important;
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px auto 0 94px;
+    border-color: #9eafbf !important;
+    color: #9eafbf !important;
+    background-color: transparent !important;
+    border-width: 2px;
+    border-radius: 25px;
+    margin-left: -68%;  
+  }
+  .p3h{
+    color: white;
+  }
+  .card-text{
+    color: gray !important;
+  }
+  .card-body{
+    float: left;
+  }
+  .anhphan4{
+      padding: 300px 50px;
+      background-size: 100%;
+      background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c4c66359aed55ac685514070/pexels-photo-5646794.jpeg?version=);
+      background-position-y: 50%;
+  } 
+}
